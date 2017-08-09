@@ -1,0 +1,87 @@
+    /* Stackacademy additions
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    
+    #header {
+      background-image: url(http://riotjs.com/img/logo/riot60x.png);
+      background-position: 0 center;
+      background-repeat: no-repeat;
+      font-size: 3rem;
+      margin: 0 0 3rem;
+      padding: 1rem 0 1rem 75px;
+      border-bottom: 1px solid #888;
+    }
+    
+    .text-center {
+      text-align: center;
+    }
+    
+    .text-left {
+      text-align: left;
+    }
+    
+    .text-right {
+      text-align: right;
+    }
+    /*  todo CSS */
+    
+    body {
+      font-family: 'myriad pro', sans-serif;
+      font-size: 20px;
+      border: 0;
+    }
+    
+    todo {
+      display: block;
+      max-width: 400px;
+      margin: 5% auto;
+    }
+    
+    form input {
+      font-size: 85%;
+      padding: .4em;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+    }
+    
+    button[disabled] {
+      background-color: #ddd;
+      color: #aaa;
+    }
+    
+    ul {
+      padding: 0;
+    }
+    
+    li {
+      list-style-type: none;
+      padding: .2em 0;
+    }
+    
+    .completed {
+      text-decoration: line-through;
+      color: #ccc;
+    }
+    
+    label {
+      cursor: pointer;
+    }
+    /* chat css */
+    
+    #text {
+      width: 290px;
+      height: auto;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    
+    #post {
+      width: 290px;
+      height: auto;
+      background-color: green;
+      color: #fff;
+      font-size: 20px;
+      text-align: center;
+      border-radius: 15px;
+      border-style: none;
+    }

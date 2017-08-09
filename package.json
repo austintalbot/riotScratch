@@ -1,0 +1,29 @@
+{
+  "name": "riotscratch",
+  "version": "1.0.0",
+  "description": "Chat App with RiotJs and Firebase",
+  "main": "index.js",
+  "config": {
+    "answer": "A"
+  },
+  "scripts": {
+    "start": "riot ./tags/hello.tag ./js &&  riot ./tags/chat.tag ./js  && firebase serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austintalbot/riotScratch.git"
+  },
+  "keywords": [
+    "riotJS",
+    "Chat",
+    "Firebase"
+  ],
+  "author": "Austin Talbot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austintalbot/riotScratch/issues"
+  },
+  "homepage": "https://github.com/austintalbot/riotScratch#readme"
+
+}
